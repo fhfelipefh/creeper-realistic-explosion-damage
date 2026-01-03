@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    "#minecraft:stone_bricks",
+    "#minecraft:walls",
+    "#minecraft:anvil",
+    "#minecraft:rails",
+    "minecraft:cobblestone",
+    "minecraft:bricks",
+    "minecraft:iron_bars",
+    "minecraft:iron_block"
+  ]
+}

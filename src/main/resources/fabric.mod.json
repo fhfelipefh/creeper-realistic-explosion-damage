@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "creeper-realistic-explosion-damage",
+	"version": "${version}",
+	"name": "creeper-realistic-explosion-damage",
+	"description": "Makes creeper explosions more realistic by preventing strong blocks (stone, iron, etc.) from being destroyed, while keeping weaker blocks destructible.",
+	"authors": [
+		"fhfelipefh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/fhfelipefh/creeper-realistic-explosion-damage",
+		"issues": "https://github.com/fhfelipefh/creeper-realistic-explosion-damage/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/creeper-realistic-explosion-damage/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fhfelipefh.Creeperrealisticexplosiondamage"
+		],
+		"client": [
+			"com.fhfelipefh.CreeperrealisticexplosiondamageClient"
+		]
+	},
+	"mixins": [
+		"creeper-realistic-explosion-damage.mixins.json",
+		{
+			"config": "creeper-realistic-explosion-damage.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

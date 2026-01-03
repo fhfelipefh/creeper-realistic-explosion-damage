@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wool",
+    "#minecraft:wool_carpets",
+    "#minecraft:planks",
+    "#minecraft:logs",
+    "#minecraft:wooden_doors",
+    "#minecraft:wooden_trapdoors",
+    "#minecraft:wooden_buttons",
+    "#minecraft:wooden_pressure_plates",
+    "#minecraft:wooden_fences",
+    "#minecraft:wooden_slabs",
+    "#minecraft:wooden_stairs",
+    "#minecraft:wooden_shelves",
+    "#minecraft:fence_gates"
+  ]
+}
