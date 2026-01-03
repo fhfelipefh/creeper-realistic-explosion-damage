@@ -31,6 +31,17 @@ O jar gerado fica em:
 build/libs/creeper-realistic-explosion-damage-<versao>.jar
 ```
 
+## Executar Testes
+Para rodar os testes unitários:
+```powershell
+.\gradlew test
+```
+
+O relatório de testes fica em:
+```
+build/reports/tests/test/index.html
+```
+
 ## Instalar no Jogo
 1) Instale o Fabric Loader 1.21.11.
 2) Baixe e coloque o Fabric API na pasta `mods`.
